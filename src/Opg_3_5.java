@@ -24,7 +24,7 @@ public class Opg_3_5 {
         }
         else {
             System.out.println(adgangNaegtet);
-        };
+        }
 
     }
 }

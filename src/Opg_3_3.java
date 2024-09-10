@@ -7,17 +7,10 @@ public class Opg_3_3 {
 
         if (kopperKaffe == 0) {
             System.out.println("Du virker træt, du har brug for kaffe!");
-        }
-
-        if (kopperKaffe == 1) {
+        } else if (kopperKaffe <=2) {
             System.out.println("Du er godt kørende!");
         }
-
-        if (kopperKaffe == 2) {
-            System.out.println("Du er godt kørende!");
-        }
-
-        if (kopperKaffe >= 3) {
+        else {
             System.out.println("Tag det roligt, måske lidt for meget kaffe!");
         }
     }
